@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins'; 
+    color: #e8cf6a;
+    margin: 0;
+    width: 100wh;
+    height: 90vh;
+    background: linear-gradient(-50deg, #ffa443, #d9a129, #c97a18, #a65c17);
+    background-size: 400% 400%;
+    animation: Gradient 4s ease infinite;
+}
+
+@keyframes Gradient {
+    0%
+    {
+        background-position: 0% 50%;
+    }
+    50%
+    {
+        background-position: 100% 50%;
+    }
+    100%
+    {
+        background-position: 0% 50%;
+    }
+}   
+
+a {
+    color: #e8cf6a;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+.homebutton {
+    width: 100px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.roll {
+    all: unset;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 580px;
+    top: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 59px;
+    text-align: center;
+    justify-content: center;
+}
+
+.dice {
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    border-style: solid;
+    border-block-end-color: #e8cf6a;
+    text-align: center;
+    justify-content: center;
+}
+
+#dice-1 {
+    position: absolute;
+    left: 640px;
+    top: 300px;
+}
+
+#dice-2 {
+    position: absolute;
+    left: 760px;
+    top: 300px;
+}
+
+#text {
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 430px;
+    top: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 59px;
+    justify-content: center;
+    text-align: center;
+}
